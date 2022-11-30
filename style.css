@@ -22,6 +22,12 @@ header{
     color: white;
     padding: 0px 227px 0 220px;
 }
+.header-menu-text{
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    color: white;
+    text-decoration: unset;
+}
 .bike-img{
     width: 640px;
     margin-bottom: 24px;
@@ -318,18 +324,22 @@ footer{
     margin-top: 66px;
 }
 .info-content{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.info-content-list{
     font-family: Poppins, sans-serif;
     font-weight: 500;
     font-size: 18px;
     color: #B2B2B2;
     line-height: 36px;
-    flex-direction: column;
-    align-items: flex-start;
+    text-decoration: unset;
 }
-.info-content>li:hover{
+.info-content-list:hover{
     color: var(--orange);
 }
 .contacts{
+    text-decoration: unset;
     color: #B2B2B2;
     font-weight: 400;
     font-family: Roboto;
