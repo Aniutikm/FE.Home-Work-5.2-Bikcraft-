@@ -3,10 +3,12 @@
 --orange: #F6AD09;
 }
 body{
+    width: 100%;
     margin: 0 auto;
-    min-width: 1600px;
 }
 header{
+    margin: 0 auto;
+    width: 100%;
     height: 773px;
     background-color: var(--black);
     margin-bottom: 145px;
@@ -20,6 +22,7 @@ header{
     display: flex;
     justify-content: space-between;
     color: white;
+    box-sizing: border-box;
     padding: 0px 227px 0 220px;
 }
 .header-menu-text{
@@ -29,7 +32,7 @@ header{
     text-decoration: unset;
 }
 .bike-img{
-    width: 640px;
+    width: 20%;
     margin-bottom: 24px;
 }
 h3{
@@ -43,6 +46,7 @@ ul{
     list-style: none;
     display: flex;
     align-items: center;
+    box-sizing: border-box;
 }
 li{
     padding-left: 24px;
@@ -83,16 +87,18 @@ li{
     align-self: center;
 }
 .tecnologia-box{
+    width: 100%;
     display: flex;
     height: 947px;
     background-color: var(--black);
     margin: 193px 0 142px;
 }
 .tecnologia-content{
-    padding: 81px 82px 95px 211px;
-    width: 542px;
+    margin: 0 auto;
+   
 }
 .tecnologia-pretitle{
+    padding-top: 80px;
     font-family: Roboto, sans-serif;
     font-size: 24px;
     color: #B2B2B2;
@@ -145,10 +151,10 @@ justify-content: space-between;
     line-height: 24px;
 }
 .escolha-box{
-    
+    margin: 0 auto;
     height: 725px;
-    width: 1460px;
-    margin: 0 70px 106px 70px;
+    width: 100%;
+    margin-bottom: 106px;
 }
 .title{
     font-family: Poppins, sans-serif;
@@ -162,12 +168,9 @@ span{
 }
 .bycicle-images{
     display: flex;
+    justify-content: space-between;
     margin-top: 44px;
-    column-gap: 40px;
-    
-}
-.bycicle-images-item{
-    width: 460px;
+    padding: 0 3%;
 }
 .image-name{
     font-family: Poppins, sans-serif;
@@ -183,12 +186,22 @@ span{
     font-size: 18px;
     color: #595959;
 }
+.nossos-box{
+    margin: 0 auto;
+    width: 100%;
+}
 .nossos-images{
-    margin: 43px 70px 108px 70px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    margin-top: 43px;
     display: flex;
     flex-wrap: wrap;
-    column-gap: 21px;
+    column-gap: 3%;
     row-gap: 13px;
+}
+.nossos-images>img{
+    width: 22%;
 }
 .lady-box{
     width: 100%;
@@ -202,17 +215,19 @@ span{
     font-style: italic;
     font-size: 36px;
     line-height: 48px;
+    align-self: flex-end;
+    margin-left: 7%;
     
 }
 .quote-text{
-    padding: 303px 236px 0 76px;
+   width: 85%; 
+    
 }
 .author-name{
     font-family: Poppins, sans-serif;
     font-weight: 600;
     font-size: 24px;
     color: #664400;
-    margin-left: 76px;
 }
 .seguros-box{
     background-color: #161616;
@@ -220,22 +235,26 @@ span{
     height: 737px;
 }
 .title-white{
-    padding-top: 73px;
-    padding-left: 209px;
+    padding-top: 10%;
+    padding-left: 15%;
     color: white;
     font-family: Poppins, sans-serif;
     font-weight: 600;
     font-size: 64px;
+    box-sizing: border-box;
 }
 .title-white span{
     color: #FFBB00;;
 }
 .black-boxes{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4%;
 }
 .black-box-item1{
+    
     display: flex;
-    margin: 73px 41px 138px 301px;
     width: 456px;
     height: 381px;
     background-color: var(--black);
@@ -245,9 +264,9 @@ span{
     background-color: var(--black);
     width: 456px;
     height: 456px;
-    margin-top: 36px;
 }
 .item-title{
+    box-sizing: border-box;
     padding: 33px 144px 28px 54px;
     font-family: Poppins, sans-serif;
     font-size: 36px;
@@ -294,6 +313,7 @@ span{
     text-align: right;
 }
 footer{
+    width: 100%;
     display: flex;
     height: 474px;
     background-color: var(--black);
